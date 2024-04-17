@@ -9,6 +9,6 @@
   display: flex;
   flex-grow: 1;
   flex-shrink: 1;
-  padding: var(--spacing-xxl);
   max-width: 628px;
+  padding: var(--spacing-xxl);
 }

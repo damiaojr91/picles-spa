@@ -1,8 +1,9 @@
 .container {
+  align-self: center;
   display: flex;
   flex-direction: column;
-  align-self: center;
-  width: 100%;
-  max-width: 340px;
   gap: var(--spacing-md);
+  margin-bottom: 22px;
+  max-width: 340px;
+  width: 278px;
 }
