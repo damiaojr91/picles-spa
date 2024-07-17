@@ -1,8 +1,8 @@
-import { InputHTMLAttributes, Ref, forwardRef } from 'react';
-import styles from './Input.module.css';
+import { InputHTMLAttributes, Ref, forwardRef } from 'react'
+import styles from './Input.module.css'
 
 interface IInput extends InputHTMLAttributes<HTMLInputElement> {
-  label: string;
+  label: string
 }
 
 function ForwardInput({ label, ...rest }: IInput, ref: Ref<HTMLInputElement>) {
@@ -11,7 +11,7 @@ function ForwardInput({ label, ...rest }: IInput, ref: Ref<HTMLInputElement>) {
       <label>{label}</label>
       <input ref={ref} {...rest} />
     </div>
-  );
+  )
 }
 
 export const Input = forwardRef(ForwardInput)
